@@ -12,6 +12,10 @@ I tried couple other dark themes and had problems with them so I decided to make
 * Video screen
 * Live screen with chat
 
+## Features
+
+You can change colors by changing variables in the beginning (dark, light, darkish).
+
 ## Updates
 
 Last update: 11.2025
