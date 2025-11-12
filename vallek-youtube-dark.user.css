@@ -1,0 +1,120 @@
+/* ==UserStyle==
+@name           Youtube Dark Theme by Vallek
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark Theme for Youtube
+@author         Vallek
+==/UserStyle== */
+@-moz-document domain("www.youtube.com") {
+  html {
+    --dark: #181818;
+    --light: rgb(204, 204, 204);
+    --darkish: rgb(62, 62, 62);
+  }
+  ytd-app,
+  .efyt-control-bar,
+  #contents.yt-live-chat-app yt-live-chat-header-renderer,
+  #tabs-inner-container,
+  #chips-content,
+  .ytChipShapeChip,
+  .yt-list-view-model-wiz,
+  .ytSearchboxComponentInputBox,
+  .ytSearchboxComponentSuggestionsContainer,
+  tp-yt-paper-listbox,
+  .style-scope ytd-guide-renderer,
+  .ytListViewModelHost,
+  .contentContainer,
+  yt-live-chat-message-input-renderer,
+  #label {
+    color: var(--light) !important;
+    background-color: var(--dark) !important;
+  }
+  .yt-live-chat-app span {
+    color: initial !important;
+  }
+  #chat-messages #header {
+    background-color: initial !important;
+  }
+  #chat-messages #header span,
+  #chat-messages #header yt-formatted-string,
+  #chat-messages .yt-spec-button-shape-next__button-text-content,
+  .yt-live-chat-paid-message-renderer {
+    color: initial !important;
+  }
+  #content-text.ytd-comment-view-model,
+  #above-the-fold,
+  .yt-spec-touch-feedback-shape,
+  yt-dropdown-menu .yt-dropdown-menu[style-target="label-text"],
+  .yt-tab-shape-wiz__tab,
+  yt-formatted-string,
+  ytd-toggle-theme-compact-link-renderer,
+  .yt-tab-shape__tab--tab-selected,
+  .animatedRollingNumberHost,
+  #chat-messages yt-live-chat-header-renderer .yt-spec-button-shape-next__button-text-content,
+  .yt-spec-button-shape-next__button-text-content,
+  .item.style-scope.yt-dropdown-menu,
+  .style-scope.ytd-rich-metadata-renderer,
+  #icon-label.yt-dropdown-menu,
+  #expand,
+  #collapse,
+  #chat span,
+  span,
+  h1, h2, h3, h4,
+  a {
+    color: var(--light) !important;
+  }
+  .yt-live-chat-ticker-paid-message-item-renderer {
+    color: var(--dark) !important;
+  }
+  #chat-messages yt-live-chat-header-renderer .ytSpecIconShapeHost > div {
+    fill: var(--light) !important;
+  }
+  #page-header-container,
+  #page-header,
+  #container,
+  #contents.yt-live-chat-app > .yt-live-chat-app,
+  .ytSearchboxComponentSearchButton,
+  #header,
+  #guide-inner-content {
+    background-color: var(--dark) !important;
+  }
+  .efyt-control-bar path,
+  .animated-subscribe-icon path
+  {
+    fill: var(--light) !important;
+  }
+  .yt-tab-group-shape-wiz__slider,
+  .tabGroupShapeSlider,
+  #ryd-bar {
+    background-color: var(--light) !important;
+  }
+  .iron-selected .ytChipShapeChip,
+  #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover,
+  .yt-simple-endpoint.ytd-compact-link-renderer:hover,
+  ytd-toggle-theme-compact-link-renderer:hover,
+  .yt-list-item-view-model-wiz__container--tappable:hover,
+  tp-yt-paper-item:hover,
+  .ytSuggestionComponentHighlighted,
+  .yt-spec-button-shape-next--text:hover,
+  .yt-list-item-view-model__label:hover {
+    background-color: var(--darkish) !important;
+  }
+  .yt-animated-icon {
+    filter: invert(0.9);
+  }
+  .ryd-bar-container,
+  .style-scope.ytd-rich-metadata-renderer,
+  .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
+    background: var(--darkish);
+  }
+  ytd-watch-metadata[description-collapsed][enable-color-sampling] #description.ytd-watch-metadata:hover {
+    background: var(--darkish) !important;
+  }
+  button.style-scope.yt-reaction-control-panel-button-view-model {
+    fill: var(--light) !important;
+    background-color: var(--dark) !important;
+  }
+  svg {
+    fill: white !important;
+  }
+}
