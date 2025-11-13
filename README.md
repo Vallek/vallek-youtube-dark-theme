@@ -22,4 +22,4 @@ Last update: 11.2025
 
 Tested on stable Chrome and Firefox on Windows 10.
 
-I'm planning to update it when and if something will break but no promises. If you found a bug please report it in Issues here. It is currently not 100% complete and google changes stuff all the time.
+I'm planning to update it when and if something will break but no promises. If you found a bug please report it in Issues here. It may be not 100% complete and google changes stuff all the time.
