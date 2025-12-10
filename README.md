@@ -18,7 +18,7 @@ You can change colors by changing variables in the beginning (dark, light, darki
 
 ## Updates
 
-Last update: 11.2025
+Last update: 12.2025
 
 Tested on stable Chrome and Firefox on Windows 10.
 
