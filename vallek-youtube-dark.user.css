@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.1
+@version        1.2
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -27,7 +27,8 @@
   yt-live-chat-message-input-renderer,
   .style-scope.ytd-playlist-panel-renderer,
   #label,
-  yt-live-chat-text-message-renderer[author-is-owner] {
+  yt-live-chat-text-message-renderer[author-is-owner],
+  .style-scope.ytd-backstage-post-renderer {
     color: var(--light) !important;
     background-color: var(--dark) !important;
   }
@@ -130,6 +131,9 @@
   }
   .ytp-time-contents > span {
     color: white !important;
+  }
+  ytd-backstage-post-renderer[uses-full-lockup] {
+    border-color: var(--light) !important;
   }
   svg {
     fill: var(--light) !important;
