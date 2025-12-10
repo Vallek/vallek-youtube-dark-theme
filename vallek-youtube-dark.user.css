@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.1
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -25,7 +25,9 @@
   .ytListViewModelHost,
   .contentContainer,
   yt-live-chat-message-input-renderer,
-  #label {
+  .style-scope.ytd-playlist-panel-renderer,
+  #label,
+  yt-live-chat-text-message-renderer[author-is-owner] {
     color: var(--light) !important;
     background-color: var(--dark) !important;
   }
@@ -107,12 +109,27 @@
   .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
     background: var(--darkish);
   }
+  ytd-playlist-panel-video-renderer[selected],
+  ytd-playlist-panel-video-renderer[selected] #container > div {
+    background: var(--darkish) !important;
+  }
+  #show-hide-button .yt-spec-button-shape-next,
+  .style-scope.yt-live-chat-viewer-engagement-message-renderer{
+    color: var(--light) !important;
+    background: var(--darkish) !important;
+  }
   ytd-watch-metadata[description-collapsed][enable-color-sampling] #description.ytd-watch-metadata:hover {
     background: var(--darkish) !important;
   }
   button.style-scope.yt-reaction-control-panel-button-view-model {
     fill: var(--light) !important;
     background-color: var(--dark) !important;
+  }
+  #chat span#author-name.owner {
+    color: var(--dark) !important;
+  }
+  .ytp-time-contents > span {
+    color: white !important;
   }
   svg {
     fill: var(--light) !important;
