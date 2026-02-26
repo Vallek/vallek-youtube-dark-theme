@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.2
+@version        1.2.1
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -80,6 +80,9 @@
   #header,
   #guide-inner-content {
     background-color: var(--dark) !important;
+  }
+  #container.style-scope.ytd-player {
+    background: black !important;
   }
   .efyt-control-bar path,
   .animated-subscribe-icon path
