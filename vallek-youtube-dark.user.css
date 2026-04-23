@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.2.3
+@version        1.2.4
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -62,6 +62,7 @@
   #collapse,
   #chat span,
   .ytTabShapeTabSelected,
+  .ytSpecButtonShapeNextMono.ytSpecButtonShapeNextTonal,
   span,
   h1, h2, h3, h4,
   a {
