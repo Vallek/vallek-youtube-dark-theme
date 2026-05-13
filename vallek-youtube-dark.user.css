@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.2.4
+@version        1.2.5
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -80,7 +80,8 @@
   #contents.yt-live-chat-app > .yt-live-chat-app,
   .ytSearchboxComponentSearchButton,
   #header,
-  #guide-inner-content {
+  #guide-inner-content,
+  #content.ytd-engagement-panel-section-list-renderer {
     background-color: var(--dark) !important;
   }
   #container.style-scope.ytd-player {
