@@ -23,3 +23,5 @@ Last update: see info for `vallek-youtube-dark.user.css` latest commit date in f
 Tested on stable Chrome and Firefox on Windows 10.
 
 I'm planning to update it when and if something will break but no promises. If you found a bug please report it in Issues here. It may be not 100% complete and google changes stuff all the time.
+
+[Support me of boosty](https://boosty.to/vallek) if you like this style)
