@@ -18,7 +18,7 @@ You can change colors by changing variables in the beginning (dark, light, darki
 
 ## Updates
 
-Last update: 12.2025
+Last update: see info for `vallek-youtube-dark.user.css` latest commit date in file panel.
 
 Tested on stable Chrome and Firefox on Windows 10.
 
