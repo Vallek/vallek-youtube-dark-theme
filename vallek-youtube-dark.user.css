@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube Dark Theme by Vallek
 @namespace      github.com/openstyles/stylus
-@version        1.2.7
+@version        1.2.8
 @description    Dark Theme for Youtube
 @author         Vallek
 ==/UserStyle== */
@@ -34,17 +34,19 @@
     color: var(--light) !important;
     background-color: var(--dark) !important;
   }
-  .yt-live-chat-app span {
-    color: initial !important;
-  }
   #chat-messages #header {
     background-color: initial !important;
   }
   #chat-messages #header span,
   #chat-messages #header yt-formatted-string,
   #chat-messages .yt-spec-button-shape-next__button-text-content,
-  .yt-live-chat-paid-message-renderer {
+  .style-scope.yt-live-chat-paid-message-renderer,
+  yt-live-chat-paid-message-renderer #author-name.yt-live-chat-author-chip {
     color: initial !important;
+  }
+  #header.style-scope.yt-live-chat-paid-message-renderer {
+    color: initial !important;
+    background-color: initial !important;
   }
   #content-text.ytd-comment-view-model,
   #above-the-fold,
@@ -85,7 +87,8 @@
   #header,
   #guide-inner-content,
   #content.ytd-engagement-panel-section-list-renderer,
-  #subheader.ytd-engagement-panel-title-header-renderer:not(:empty) {
+  #subheader.ytd-engagement-panel-title-header-renderer:not(:empty),
+  ytd-engagement-panel-section-list-renderer{
     background-color: var(--dark) !important;
   }
   #container.style-scope.ytd-player {
